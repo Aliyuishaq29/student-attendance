@@ -13,7 +13,6 @@ class Record extends Model
         'admission_no',
         'batch_no',
         'status',
-        'date',
         'biometric'
     ]);
 }

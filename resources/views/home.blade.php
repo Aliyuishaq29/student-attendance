@@ -5,7 +5,7 @@
     @include('layouts.include.sidebar')
     <div class="row justify-content-center">
         <div class="col-md-10">
-            @include('layouts.include.card')
+            {{-- @include('layouts.include.card')
             <div class="py-2">
             <div class="card">
                 {{-- <div class="card-header">{{ __('Dashboard') }}</div> --}}

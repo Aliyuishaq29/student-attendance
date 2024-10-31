@@ -14,10 +14,7 @@ class Management extends Component
     public function department(){
 
         $validated = $this->validate();
-        // Department::create([
-        //     'department_name' => $this->department_name,
-        //     'department_code' => $this->department_code,
-        // ]);
+
         Department::create($validated);
 
         return redirect('/management')->with( session()->flash("success","Added succssfully !!"));

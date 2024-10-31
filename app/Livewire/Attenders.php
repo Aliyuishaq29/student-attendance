@@ -32,7 +32,7 @@ class Attenders extends Component
             'status' => $this->present
 
         ]);
-        return redirect('/')->with( session()->flash("success","Registerd succssfully !!"));
+        return redirect('/')->with( session()->flash("success","Data created successfully"));
     }
 
     public function render()

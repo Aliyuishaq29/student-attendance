@@ -28,5 +28,5 @@ class RecordShow extends Component
             'user' => $results
         ]);
     }
-    // compact('users')
+
 }

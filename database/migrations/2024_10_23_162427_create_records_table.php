@@ -18,7 +18,6 @@ return new class extends Migration
             $table->string('admission_no');
             $table->integer('batch_no');
             $table->boolean('status')->default(0);
-            $table->date('date');
             $table->string('biometric')->nullable();
             $table->timestamps();
         });
