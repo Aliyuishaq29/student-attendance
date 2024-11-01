@@ -1,5 +1,9 @@
 <div class="container py-5">
+
     <div class="offset-3 col-6 w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
+        @if (session('success'))
+        <div class="alert alert-success">{{session('success')}}</div>
+         @endif
         <form role="search">
             <div class="offset-3 col-6 center">
                 <input wire:model.live='student_code'  data-bs-toggle="modal" data-bs-target="#exampleModal" class="form-control data-bs-toggle=modal" data-bs-target="#exampleModal" placeholder="Type/Scan Student id" autofocus >

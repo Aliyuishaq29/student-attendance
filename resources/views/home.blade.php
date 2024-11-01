@@ -18,7 +18,8 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    {{-- {{ __('You are logged in!') }} --}}
+                    <livewire:dashboard />
                 </div>
             </div>
         </div>
